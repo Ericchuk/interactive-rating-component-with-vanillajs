@@ -215,6 +215,7 @@ article section {
   color: var(--White);
   max-width: 340px;
   min-height: 300px;
+  display: none;
 }
 article section h1,
 article section h2 {

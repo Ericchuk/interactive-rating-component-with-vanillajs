@@ -5,6 +5,7 @@ let submit = document.querySelector("button");
 let modal = document.querySelector(".modal-page");
 let float = document.querySelector(".float");
 let h1 = document.querySelector(".float h1");
+let landing = document.querySelector(".landing-page")
 
 for (let i = 0; i < rates.length; i++) {
   function rate() {
@@ -35,4 +36,5 @@ modal.addEventListener("click", modalUnroll);
 
 setTimeout(function () {
   float.classList.add("transit");
+  landing.style.display = "block"
 }, 8000);
